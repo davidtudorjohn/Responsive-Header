@@ -388,5 +388,23 @@ button.accordion.is-open::after{
     .activeDesktopMenu{
         color: #4284fb;
     }
+        #followUsLabel{
+        padding-top: 20px;
+    }
+    #followIconsList{
+        display: flex;
+        float: left;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    .followIcon{
+        max-width: 32px;
+        margin-right: 20px;
+        font-size: 24px;
+    }
+    .followIcon:hover{
+        color: #4284fb;
+    }
+
 }
     
