@@ -25,7 +25,6 @@ desktopMenu.addEventListener('click', () => {
         desktopMenuColumn.style.maxHeight = 0;
     }
 })
-
 loginMenuBtn.addEventListener('click', () => {
 
     if(loginMenuContent.style.maxWidth){
@@ -38,11 +37,6 @@ loginMenuBtn.addEventListener('click', () => {
         loginMenuBtn.style.color = "#4284fb";
     }
 })
-// loginMenuBtn.addEventListener('click', () => {
-//     loginMenuContent.style.maxWidth = "250px";
-//     loginMenuOverlay.style.maxWidth = "100vw";
-//     loginMenuBtn.style.color = "#4284fb";
-// })
 closeLoginMenuBtn.addEventListener('click', () => {
     loginMenuContent.style.maxWidth = "0";
     loginMenuOverlay.style.maxWidth = "0";
@@ -53,8 +47,6 @@ loginMenuOverlay.addEventListener('click', () => {
     loginMenuContent.style.maxWidth = "0";
     loginMenuOverlay.style.maxWidth = "0";
     loginMenuBtn.style.color = "#38393c";
-
-    // desktopMenuContent.style.maxWidth = "0";
 })
 menuToggle.addEventListener('click', function(e) {
     let content = e.target.nextElementSibling;
